@@ -10,8 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p{
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
   font-size: 120%;
+
 }
 
 a{
@@ -30,6 +32,9 @@ a:hover{
   color: #fff;
 }
 
+#navbar{
+background-color: #876445;
+}
 #title{
   background-color: #876445;
 }
@@ -43,7 +48,7 @@ a:hover{
 
 .navbar {
   background-color: #876445;
-  padding: 0 0 4.5rem;
+  padding: 0 0 1.5rem;
   color: #fff;
 }
 
@@ -67,6 +72,8 @@ a:hover{
 
 .basla{
   margin-top: 2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
 }
 
 .feature-grid{

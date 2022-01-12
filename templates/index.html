@@ -1,46 +1,18 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+{% include 'header.html' %}
 
-<head>
-  <meta charset="utf-8">
-  <title>Mochi</title>
-  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/15438fdfde.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../static/styles.css">
-
-</head>
-
-<!-- HEADER-->
-<body>
   <section id="title">
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Mochi</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Bana Kitap Öner</a> <!-- Bu digerlerinden farkli bir buton olsun  --></li>
-        <li class="nav-item"><a class="nav-link" href="#">Anasayfa</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">İletişim</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="container-fluid">
   <div class="row">
     <div class="col-lg-6">
       <h1 class="title-heading">Ruh halinize göre kitaplar bulun. Kendinizi okuyun.</h1>
-      <button type="button" class="btn btn-light btn-lg basla">Kitap öner</button>
+      <a href="{{url_for('secim')}}" type="button" class="btn btn-light btn-lg basla">Bana kitap öner</a>
     </div>
     <div class="col-lg-6">
       <img class="lady" src="https://images.pexels.com/photos/5084674/pexels-photo-5084674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
     </div>
   </div>
 </div>
-</section>
+  </section>
 
     <!-- Features -->
   <section id="features">
@@ -59,7 +31,7 @@
     <div class="col-sm">
       <i class="fas fa-book-reader icon"></i>
       <h3><strong>Yeni okuma alışkanlıkları kazandırır</strong></h3>
-      <p>Sürekli güncellenen kütüphanemiz sayesinde daima okuyacak bir kitabınız olacak</p>
+      <p>Sürekli güncellenen kütüphanemiz sayesinde daima okuyacak bir kitap bulabileceksiniz</p>
     </div>
   </div>
 </div>
@@ -67,16 +39,4 @@
 
   </section>
 
-  <!-- footer -->
-
-  <footer>
-    <button class="btn btn-link social" type="button" name="button"><i class="fab fa-github"></i></button>
-    <button class="btn btn-link social" type="button" name="button"><i class="fab fa-linkedin"></i></button>
-    <button class="btn btn-link social" type="button" name="button"><i class="fab fa-twitter"></i></button>
-    <button class="btn btn-link social" type="button" name="button"><i class="fab fa-medium-m"></i></button>
-
-    <p>© Copyright 2022 Mochi</p>
-  </footer>
-
-</body>
-</html>
+{% include 'footer.html' %}
