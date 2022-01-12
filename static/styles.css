@@ -10,10 +10,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p{
-  margin-bottom: 0
+  margin-bottom: 0;
+  font-size: 120%;
 }
 
 a{
+  color: #F4DFBA;
+}
+
+a:hover{
   color: #fff;
 }
 
@@ -39,12 +44,13 @@ a{
 .navbar {
   background-color: #876445;
   padding: 0 0 4.5rem;
+  color: #fff;
 }
 
 .navbar-brand{
-  color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .navbar-link{
@@ -56,6 +62,11 @@ a{
 .lady{
  height: 540px;
  width: 360px;
+ border-radius: 10%;
+}
+
+.basla{
+  margin-top: 2rem;
 }
 
 .feature-grid{
@@ -73,6 +84,10 @@ a{
   margin-bottom: 0;
   font-size: 1.5rem;
   color: #fff;
+}
+
+.social:hover{
+  color:#fff;
 }
 
 footer {
