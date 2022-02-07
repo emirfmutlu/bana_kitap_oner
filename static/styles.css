@@ -1,0 +1,109 @@
+body{
+  background-color: #F4DFBA;
+  font-family: 'Luxurious Roman', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Luxurious Roman',sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  font-size: 120%;
+
+}
+
+a{
+  color: #F4DFBA;
+}
+
+a:hover{
+  color: #fff;
+}
+
+.title-heading{
+  font-family: "Luxurious Roman", sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+#navbar{
+background-color: #876445;
+}
+#title{
+  background-color: #876445;
+}
+
+#features{
+  color: #876445;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar {
+  background-color: #876445;
+  padding: 0 0 1.5rem;
+  color: #fff;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.navbar-link{
+  padding-bottom: 3.5rem;
+  padding-left: 418px;
+  padding-right: 18px;
+}
+
+.lady{
+ height: 540px;
+ width: 360px;
+ border-radius: 10%;
+}
+
+.basla{
+  font-family: 'Montserrat',sans-serif;
+}
+
+.buton{
+font-family: 'Montserrat',sans-serif;
+margin-top: 5%;
+}
+
+.feature-grid{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.icon{
+  font-size: 2.5rem;
+}
+
+.social {
+  border: none;
+  margin-top: 1%;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.social:hover{
+  color:#fff;
+}
+
+footer {
+  color: #fff;
+  background-color: #876445;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

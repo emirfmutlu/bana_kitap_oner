@@ -1,0 +1,41 @@
+{% include 'header.html' %}
+
+  <section id="title">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6">
+      <h1 class="title-heading">Ruh halinize göre kitaplar bulun. Okuyarak kendinizi keşfedin.</h1>
+      <a href="{{url_for('secim')}}" type="button" class="btn btn-light btn-lg basla buton"><strong>Bana kitap öner</strong></a>
+    </div>
+    <div class="col-lg-6">
+      <img class="lady" src="https://images.pexels.com/photos/5084674/pexels-photo-5084674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+    </div>
+  </div>
+</div>
+  </section>
+
+    <!-- Features -->
+  <section id="features">
+    <div class="container feature-grid">
+  <div class="row">
+    <div class="col-sm">
+      <i class="fas fa-user-tie icon"></i>
+      <h3><strong>Özenle seçilen kitaplar</strong></h3>
+      <p> Sizler tarfından tavsiye edilen kitapları yine sizlere sunuyoruz.</p>
+    </div>
+    <div class="col-sm">
+      <i class="fas fa-bullseye feature-logo icon"></i>
+      <h3><strong>Kullanımı kolay</strong></h3>
+      <p>Saniyeler içinde okuyacağınız yeni kitabı seçmenizi sağlıyoruz.</p>
+    </div>
+    <div class="col-sm">
+      <i class="fas fa-book-reader icon"></i>
+      <h3><strong>Yeni okuma alışkanlıkları kazandırır</strong></h3>
+      <p>Sürekli güncellenen kütüphanemiz sayesinde daima okuyacak bir kitap bulabileceksiniz</p>
+    </div>
+  </div>
+</div>
+</div>
+  </section>
+
+{% include 'footer.html' %}
