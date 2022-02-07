@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/kitaponeryeni.iml" filepath="$PROJECT_DIR$/.idea/kitaponeryeni.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/kitap_oner.iml" filepath="$PROJECT_DIR$/.idea/kitap_oner.iml" />
+>>>>>>> bd23cda6598722d101a26ee1a60591a1ee649c50
     </modules>
   </component>
 </project>
